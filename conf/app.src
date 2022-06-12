@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/getfider/fider/archive/refs/tags/v0.21.0.tar.gz
-SOURCE_SUM=b3396624d848630a5074c1ab3735c9248dd52204e3d850820284e3bc3a53db16
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
-SOURCE_EXTRACT=true
