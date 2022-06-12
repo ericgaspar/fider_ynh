@@ -1,6 +1,6 @@
 {
-    "name": "Example app",
-    "id": "example",
+    "name": "Fider",
+    "id": "fider",
     "packaging_format": 1,
     "description": {
         "en": "Open platform to collect and prioritize feedback",
@@ -9,17 +9,16 @@
     "version": "0.21.0~ynh1",
     "url": "https://fider.io/",
     "upstream": {
-        "license": "free",
+        "license": "AGPL-3.0",
         "website": "https://fider.io/",
         "demo": "https://demo.example.com",
         "admindoc": "https://yunohost.org/packaging_apps",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/getfider/fider/"
     },
-    "license": "free",
+    "license": "AGPL-3.0",
     "maintainer": {
-        "name": "John doe",
-        "email": "john.doe@example.com"
+        "name": "",
+        "email": ""
     },
     "requirements": {
         "yunohost": ">= 4.3.0"
@@ -27,7 +26,6 @@
     "multi_instance": true,
     "services": [
         "nginx",
-        "php7.3-fpm",
         "mysql"
     ],
     "arguments": {
@@ -39,8 +37,8 @@
             {
                 "name": "path",
                 "type": "path",
-                "example": "/example",
-                "default": "/example"
+                "example": "/fider",
+                "default": "/fider"
             },
             {
                 "name": "is_public",
