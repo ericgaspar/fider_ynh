@@ -1,5 +1,5 @@
 SOURCE_URL=https://github.com/ericgaspar/fider_ynh/releases/download/v0.21.0/fider_v0.21.0_armhf.tar.gz
-SOURCE_SUM=cb79da9e9f491426f5e64cb4a09735ef33fb503d4b6fbc6fbbb652e1ace7b02a
+SOURCE_SUM=db0cc82db3d6f9e6a2f67be582274a4973da2f84ed229c47c9eaaa7d8319359e
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

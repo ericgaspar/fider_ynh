@@ -1,5 +1,5 @@
 SOURCE_URL=https://github.com/ericgaspar/fider_ynh/releases/download/v0.21.0/fider_v0.21.0_amd64.tar.gz
-SOURCE_SUM=19afa1b1976f06b3865b032fff1af35119868b8cb5b92bb290c6f7ce46f6baae
+SOURCE_SUM=17fb20a5431b2c9b32c9a8e6191dc444b89a5dcbad4583d328686b363f3532e8
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
